@@ -18,7 +18,7 @@ namespace abstractclassassignment
             //Use polymorphism to create an object of type IQuittable and call the Quit() method on it
             IQuittable quittable = new Employee();
             quittable.Quit(sam);
-           
+
             Console.ReadLine();
         }
     }
